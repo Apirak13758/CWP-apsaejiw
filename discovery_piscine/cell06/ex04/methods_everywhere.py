@@ -9,7 +9,7 @@ if len(sys.argv) > 1:
             print(sys.argv[i])
         elif len(sys.argv[i]) < 8:
             print(enlarge(sys.argv[i]))
-        else:
+        else: #string > 8
             print(shrink(sys.argv[i]))
 else:
     print("none")
